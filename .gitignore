@@ -1,0 +1,5 @@
+db/*.sqlite3*
+.ruby-lsp/
+.DS_Store
+.env
+.env.*

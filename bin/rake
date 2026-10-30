@@ -1,0 +1,17 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+#
+# Ce fichier a été généré par Bundler.
+#
+# La commande rake est fournie par une gem.
+# Ce fichier permet de la lancer avec les dépendances du projet.
+#
+
+require "pathname"
+ENV["BUNDLE_GEMFILE"] ||= File.expand_path("../../Gemfile",
+  Pathname.new(__FILE__).realpath)
+
+require "rubygems"
+require "bundler/setup"
+
+load Gem.bin_path("rake", "rake")
